@@ -85,7 +85,7 @@ public class ProjectSpecificComponents
 		}
 		else if(browser.equalsIgnoreCase("chrome"))
 		{
-			final String userProfile= "C:\\Users\\srih.IN\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\";
+			final String userProfile= "C:\\Users\\Sri harsha\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\";
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("user-data-dir="+userProfile);
 			options.addArguments("--start-maximized");
