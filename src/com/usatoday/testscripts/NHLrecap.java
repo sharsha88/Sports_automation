@@ -6,20 +6,20 @@ import org.junit.Test;
 
 import com.usatoday.frameworkengine.Testexecutor;
 
-public class NHLboxscore extends TestCase
+public class NHLrecap extends TestCase
 {
 	@Test
-	public void testNHLboxscore()
+	public void testNHLrecap()
 	{
 		try
 		{
-		System.out.println("inside testNHLboxscore test try block");
+		System.out.println("inside testNHLrecap test try block");
 		Testexecutor executor = new Testexecutor();
 		executor.executeTest(this.getClass().getSimpleName());
 		}
 		catch (Exception e)
 		{
-			System.out.println("inside testNHLboxscore test catch block");
+			System.out.println("inside testNHLrecap test catch block");
 			System.out.println(e);
 		}
 	}
